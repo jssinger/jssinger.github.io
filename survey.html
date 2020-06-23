@@ -1,0 +1,71 @@
+<div id="main">
+<h1 id="title">JROTC Test Survey Form</h1>
+<p id="description">Thank you for taking the time to help improve JROTC</p>
+  
+<form id="survey-form">
+          
+  <div id="input">
+    <label for="name" id="name-label">Full Name (Last, First)</label></br>
+    <input type="text" id="name" name="name" placeholder="Doe, John" required></br>
+  </div>
+
+  <div id="input">
+    <label for="email" id="email-label">Email Address</label></br>
+    <input type="email" id="email" name="email" placeholder="john.doe@gmail.com" required></br>
+  </div>                                             
+
+  <div id="input">
+    <label for="number" id="number-label">Class Period</label></br> 
+    <input type="number" id="number" name="number" min="1" max="8" placeholder="0" required></br>
+  </div>
+
+  <div id="input">
+    <label for="dropdown-content">Let Level</label></br>
+    <select name="lets" id="dropdown" placeholder="Let Level">
+      <option value="Let 1">Let I</option>
+      <option value="Let 2">Let II</option>
+      <option value="Let 3">Let III</option>
+      <option value="Let 4">Let IV</option>
+    </select>
+  </div>
+
+  <div id="input">
+    <label for="score" id="score-label">Percent Correct</label></br> 
+    <input type="number" id="score" name="score" min="0" max="100" placeholder="0" required><label>%</label>
+    </br>
+  </div>
+
+  <div id="input">
+    <label for="comments" id="comments-label">Any Comments or Points of Concern?</labe></br>
+    <input type="text" id="comments" name="comments"></br>
+  </div>
+
+  <div id="input">
+     <label for="questions" id="question">Do you believe these test are helping your improve you SAT testing ability?</label></br>
+      <input type="radio" id="Yes" name="answer" value="Yes">
+      <label for="Yes">Yes</label><br>
+      <input type="radio" id="No" name="answer" value="No">
+      <label for="No">No</label><br>
+      <input type="radio" id="Sort Of" name="answer" value="Sort Of">
+      <label for="Sort of">Sort of, but there are other (more
+effective) means to improve</label>
+  </div>
+
+  <div id="input">
+    <label for="warmup" id="warmup">What topics would you like us to cover in warmups (check all that apply)?</label></br>
+    <input type="checkbox" id="algebra" name="algebra" value="algebra">
+    <label for="algebra"> Algebra</label><br>
+    <input type="checkbox" id="geometry" name="geometry" value="geometry">
+    <label for="geometry"> Geometry</label><br>
+    <input type="checkbox" id="pre-cal" name="pre-cal" value="pre-cal">  
+    <label for="pre-cal"> Pre-Calculus</label></br>
+  </div>
+
+  <div id="input">
+    <label for="feedback" id="feedback">What suggestions do you have for us to implement into our testing curriculum?</label></br>
+    <textarea name="feedback" rows="4" cols="75"></textarea>
+  </div>
+
+<input id="submit" type="submit">
+</form>
+</div>
