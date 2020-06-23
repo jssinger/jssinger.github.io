@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+#comments{
+  height: 20px;
+  width: 500px;
+}
+#description{
+  font-size: 20px;
+  font-weight: bold;
+  background: white;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-radius: 15px;
+}
+#main{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://pbs.twimg.com/profile_images/701979031701319680/0uLtvPLH_400x400.jpg);
+  padding-bottom: 115px;
+}
+#survey-form{
+  padding-top: 15px;
+  background: #B80306;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-radius: 15px;
+  text-align: justified;
+  padding-bottom: 10px;
+}
+#input{
+  padding-top: 15px;
+  background: white;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 15px;
+  padding-left: 25px;
+  font-size: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+input, select{
+  font-family: 'Poppins', sans-serif;
+}
+#name{
+  width: 300px;
+}
+
+#email{
+  width: 300px;
+}
+#number{
+  width: 60px;
+}
+#dropdown{
+  width: 68px;
+}
+#score{
+  width: 60px;
+}
+#submit{
+  margin-top: 15px;
+  font-size: 200%;
+  border-radius: 5px;
+}
