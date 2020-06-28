@@ -1,3 +1,7 @@
+#main{
+  background-color: #eee;
+}
+
 #header{
   top: 0;
   position: fixed;
@@ -5,8 +9,23 @@
   width: 100%;
   text-align: center;
 }
+
 #header-img{
   position: absolute;
   top: 0px;
   left: 0px;
+}
+
+#body{
+  padding-top: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+#title{
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
 }
