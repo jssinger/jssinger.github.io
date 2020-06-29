@@ -11,6 +11,7 @@
   background: white;
   width: 100%;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 #header-img{
@@ -20,17 +21,27 @@
 }
 
 #body{
-  padding-top: 100px;
+  padding-top: 115px;
   padding-left: 250px;
   padding-right: 250px;
 }
 
 #title{
   text-align: center;
-  margin-top: -105px;
-  padding-top: 105px;
+  margin-top: -115px;
+  padding-top: 115px;
 }
 
 #contact{
   text-align: center;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+
+#graphic{
+  font-size: 20px;
+  color: blue;
 }
