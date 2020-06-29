@@ -5,6 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  margin-bottom: 5px;
+}
+
 #header{
   top: 0;
   position: fixed;
@@ -16,7 +20,7 @@
 
 #header-img{
   position: absolute;
-  top: 0px;
+  top: 5px;
   left: 0px;
 }
 
