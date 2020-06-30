@@ -49,3 +49,65 @@ h1 {
   font-size: 20px;
   color: #001778;
 }
+
+#submit{
+  background-color: #f1c40f;
+  max-width: 75px;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  border-radius: 15%;
+}
+
+#features {
+  margin-top: 30px;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+.topics{
+  display: flex;
+  border: 1px black solid;
+  padding: 10px;
+  flex-direction: column;
+  align-items: left;
+}
+.Lit{
+  flex: 1;
+  order: 1;
+}
+.Sci{
+  flex: 1;
+  order: 2;
+}
+.Hist{
+  flex: 1;
+  order: 3;
+}
+.Geo{
+  flex: 1;
+  order: 4;
+}
+.Trash{
+  flex: 1;
+  order: 5;
+}
+.Math{
+  flex: 1;
+  order: 6;
+}
+.FA{
+  flex: 1;
+  order: 7;
+}
+.Other{
+  flex: 1;
+  order: 8;
+}
