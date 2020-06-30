@@ -90,3 +90,31 @@ h1 {
   text-align: left;
   padding-left: 15px;
 }
+
+#team-images{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.team{
+  flex: 25%;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  position: center;
+}
+
+.team-img{
+  border: 5px solid  #02157D;
+  border-color:  #02157D;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  margin-left: 15px;
+}
+
+figcaption{
+  width: 87px;
+  text-align: center;
+}
