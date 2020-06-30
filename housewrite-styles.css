@@ -8,6 +8,9 @@
 h1 {
   margin-bottom: 5px;
 }
+.nav-link{
+  padding-left: 50px;
+}
 
 #header{
   top: 0;
@@ -20,7 +23,7 @@ h1 {
 
 #header-img{
   position: absolute;
-  top: 5px;
+  top: 15px;
   left: 0px;
 }
 
@@ -83,6 +86,6 @@ h1 {
 .desc{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   padding-left: 15px;
 }
