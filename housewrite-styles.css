@@ -68,7 +68,7 @@ h1 {
 }
 
 #topics {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .graphic{
@@ -76,19 +76,28 @@ h1 {
   color: #02157D;
   text-align: justify;
   align-items: center;
-  font-size: 15px;
-  padding-right: 15px;
+  font-size: 20px;
+  width: 15px;
+  padding-right: 25px;
 }
 
 .grid{
   display: flex;
+  margin-top: -35px;
+  margin-bottom: -25x;
 }
 
 .desc{
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin-top: -20px;
   padding-left: 15px;
+  text-align: left;
+}
+
+#distro{
+  padding-bottom: 15px;
 }
 
 #team-images{
@@ -117,4 +126,9 @@ h1 {
 figcaption{
   width: 87px;
   text-align: center;
+}
+
+h3{
+  font-weight: bold;
+  margin-bottom: 0px;
 }
