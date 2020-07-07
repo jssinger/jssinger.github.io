@@ -9,6 +9,7 @@
 #road{
     text-align: left;
     margin-top: 10px;
+    padding-left: 15px;
 }
 #navbar{
     position: absolute;
@@ -82,7 +83,7 @@ a{
     opacity: 1;
 }
 .swift{
-    background-color: green;
+    background-color: orange;
     border: transparent;
     border-radius: 15%;
 }
@@ -92,7 +93,7 @@ a{
     border-radius: 15%;
 }
 .java{
-    background-color: rgb(33, 33, 219);
+    background-color: yellow;
     border: transparent;
     border-radius: 15%;
 }
