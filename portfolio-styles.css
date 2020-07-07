@@ -1,6 +1,9 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+
 #main{
     display:flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 #navbar{
     position: fixed;
@@ -25,7 +28,19 @@ a{
     max-width: 100%;
 }
 #projects{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
     height: 100vh;
     width: 100vw;
     background-color: #F7F7F8;
+}
+#flix{
+    border: solid;
+    border: 1px;
+    border-color: black;
+}
+#flix-gif{
+    height: 20%;
+    width: 15%;
 }
