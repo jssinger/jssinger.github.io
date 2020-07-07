@@ -61,6 +61,7 @@ a{
     height: 100vh;
     width: 100vw;
     background-color: #F7F7F8;
+    padding-bottom: 50px;
 }
 .project-tile{
     margin-left: 75px;
@@ -96,4 +97,11 @@ a{
     background-color: yellow;
     border: transparent;
     border-radius: 15%;
+}
+.media{
+    height: 100px;
+    max-width: 115px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
