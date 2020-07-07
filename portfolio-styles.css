@@ -28,10 +28,12 @@ a{
     text-decoration: none;
     color: black;
 }
-button{
+.link{
     height: 50px;
     width: 100px;
+    border: none;
     cursor: pointer;
+    background-color: white;
 }
 .contact{
     padding-left: 20px;
@@ -71,9 +73,24 @@ button{
     height: 20%;
     width: 15%;
 }
-button{
+.link{
     opacity: 0.6;
 }
-button:hover{
+.link:hover{
     opacity: 1;
+}
+.swift{
+    background-color: green;
+    border: transparent;
+    border-radius: 15%;
+}
+.html{
+    background-color: red;
+    border: transparent;
+    border-radius: 15%;
+}
+.java{
+    background-color: rgb(33, 33, 219);
+    border: transparent;
+    border-radius: 15%;
 }
