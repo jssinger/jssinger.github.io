@@ -28,14 +28,18 @@ a{
     max-width: 100%;
 }
 #projects{
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
+    display: grid;
+    padding-left: 50px;
+    grid-template-areas: 
+         "flix housewrite"
+         "tipsy 2048"
+         "JROTC workout";
     height: 100vh;
     width: 100vw;
     background-color: #F7F7F8;
 }
 #flix{
+    grid-area: flix;
     border: solid;
     border: 1px;
     border-color: black;
@@ -43,4 +47,10 @@ a{
 #flix-gif{
     height: 20%;
     width: 15%;
+}
+button{
+    opacity: 0.6;
+}
+button:hover{
+    opacity: 1;
 }
