@@ -4,11 +4,24 @@
     display:flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    font-size: 3vmin;
+}
+#road{
+    text-align: left;
+    margin-top: 10px;
 }
 #navbar{
-    position: fixed;
+    position: absolute;
     top: 0px;
-    width: 90%;
+    width: 98%;
+    border-bottom: 3px solid  #F5F5F5;
+    padding-right: 10px;
+}
+#nav-items{
+    display: grid;
+    grid-template-areas: "road nav";
+}
+#nav{
     text-align: right;
 }
 a{
