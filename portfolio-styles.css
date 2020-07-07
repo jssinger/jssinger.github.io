@@ -38,7 +38,6 @@ a{
 .contact{
     padding-left: 20px;
 }
-
 #welcome-section{
     margin-top: 100px;
     height: 100vh;
@@ -54,7 +53,6 @@ a{
 #projects{
     padding-top: 100px;
     display: grid;
-    padding-left: 50px;
     grid-template-areas: 
          "flix housewrite"
          "tipsy 2048"
@@ -62,6 +60,10 @@ a{
     height: 100vh;
     width: 100vw;
     background-color: #F7F7F8;
+}
+.project-tile{
+    margin-left: 75px;
+    max-width: 500px;
 }
 #flix{
     grid-area: flix;
