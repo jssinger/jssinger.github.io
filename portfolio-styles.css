@@ -15,6 +15,15 @@ a{
     text-decoration: none;
     color: black;
 }
+button{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+.contact{
+    padding-left: 20px;
+}
+
 #welcome-section{
     margin-top: 100px;
     height: 100vh;
