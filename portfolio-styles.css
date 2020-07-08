@@ -6,12 +6,11 @@
     font-family: "Roboto", sans-serif;
     font-size: 3vmin;
 }
-#road{
-    text-align: left;
-    margin-top: 20px;
-    padding-left: 15px;
-}
 #road-button{
+    text-align: left;
+    margin-top: 15px;
+    font-size: 25px;
+    padding-left: 20px;
     border: transparent;
     background-color: white;
 }
@@ -60,11 +59,11 @@ a{
     grid-template-areas: 
          "flix housewrite"
          "tipsy 2048"
-         "JROTC workout";
+         "JROTC workout"
+         "yelpy Portfolio";
     height: 100vh;
     width: 100vw;
     background-color: #F7F7F8;
-    padding-bottom: 50px;
 }
 .project-tile{
     margin-left: 75px;
@@ -87,19 +86,22 @@ a{
     opacity: 1;
 }
 .swift{
-    background-color: orange;
+    background-color: #FFAD45;
     border: transparent;
     border-radius: 3px;
+    font-size: 11px;
 }
 .html{
-    background-color: red;
+    background-color: #E34C26;
     border: transparent;
     border-radius: 3px;
+    font-size: 11px;
 }
 .java{
-    background-color: yellow;
+    background-color: #F2E05A;
     border: transparent;
     border-radius: 3px;
+    font-size: 11px;
 }
 .media{
     height: 100px;
