@@ -1,0 +1,112 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+
+#main{
+    display:flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 3vmin;
+}
+#road-button{
+    text-align: left;
+    margin-top: 15px;
+    font-size: 25px;
+    padding-left: 20px;
+    border: transparent;
+    background-color: white;
+}
+#navbar{
+    position: absolute;
+    top: 0px;
+    width: 98%;
+    border-bottom: 3px solid  #F5F5F5;
+    padding-right: 10px;
+}
+#nav-items{
+    display: grid;
+    grid-template-areas: "road nav";
+}
+#nav{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    height: 50px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.contact{
+    padding-left: 20px;
+}
+#welcome-section{
+    margin-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+#profile-pic{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+}
+#projects{
+    display: grid;
+    grid-template-areas: 
+         "flix housewrite"
+         "tipsy 2048"
+         "JROTC workout"
+         "yelpy Portfolio";
+    height: 100vh;
+    width: 100vw;
+    background-color: #F7F7F8;
+}
+.project-tile{
+    margin-left: 75px;
+    max-width: 500px;
+}
+#flix{
+    grid-area: flix;
+    border: solid;
+    border: 1px;
+    border-color: black;
+}
+#flix-gif{
+    height: 20%;
+    width: 15%;
+}
+.link{
+    opacity: 0.6;
+}
+.link:hover{
+    opacity: 1;
+}
+.swift{
+    background-color: #FFAD45;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.html{
+    background-color: #E34C26;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.java{
+    background-color: #F2E05A;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.media{
+    height: 100px;
+    max-width: 115px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
