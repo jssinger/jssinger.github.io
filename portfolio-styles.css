@@ -79,10 +79,10 @@ a{
 #projects{
     display: grid;
     grid-template-areas: 
-         "flix housewrite"
-         "tipsy 2048"
-         "JROTC workout"
-         "yelpy Portfolio";
+         "tweety housewrite"
+         "2048 flix"
+         "yelpy workout"
+         "tipsy Portfolio";
     height: 100vh;
     width: 100vw;
     background-color: #F7F7F8;
