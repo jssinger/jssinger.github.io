@@ -54,19 +54,6 @@ h1 {
   color: #001778;
 }
 
-#submit{
-  background-color: #f1c40f;
-  max-width: 75px;
-  height: 30px;
-  margin: 15px 0;
-  border: 0;
-  border-radius: 15%;
-}
-
-#email{
-  max-width: 150px;
-  height: 30px;
-}
 
 #topics {
   margin-top: 10px;
